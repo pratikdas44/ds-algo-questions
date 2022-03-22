@@ -1,5 +1,4 @@
-public class Animal implements Eatable {
-
+public class Animal {
     String name;
     String colour;
     int age;
@@ -7,10 +6,5 @@ public class Animal implements Eatable {
 
     void sayName() {
         System.out.println("My name is " + name);
-    }
-
-    @Override
-    public void eat() {
-        System.out.println("Animal is eating");
     }
 }

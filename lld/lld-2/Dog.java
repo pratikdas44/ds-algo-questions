@@ -1,14 +1,11 @@
 public class Dog extends Animal implements Runnable {
     String breed;
     String hairColour;
-    private RunningBehaviour runningBehaviour = new FastRunningBehaviour();
 
-    void bark() {
-        System.out.println("Bhow");
-    }
-
+    @Override
     void sayName() {
-        System.out.println("Bhow bhow bhow saying name");
+//        super.sayName();
+        System.out.println("My name is prsaatik");
     }
 
     @Override

@@ -1,8 +1,8 @@
-public class FastRunningBehaviour implements RunningBehaviour {
+public class FastRunningbehaviour implements Runningbehaviour {
 
+        @Override
+        public void run() {
+            System.out.println("Running very fastttttt");
 
-    @Override
-    public void run() {
-        System.out.println("Running very fastttttt");
     }
 }
